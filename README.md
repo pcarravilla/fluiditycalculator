@@ -1,12 +1,16 @@
+# Fluidity Calculator for ImageJ/Fiji
+
 This is an ImageJ/Fiji macro tool to calculate membrane fluidity values (aka GP) from spectral imaging or two-channel microscopy data.
-Developed by Pablo Carravilla (https://orcid.org/0000-0001-6592-7630) while working at the CSI:nano lab (https://www.csi-nano.org) at SciLifeLab and the Karolinska Institute.
+Developed by [Pablo Carravilla](https://orcid.org/0000-0001-6592-7630) while working at the [CSI:Nano lab](https://www.csi-nano.org) at SciLifeLab and the Karolinska Institute.
 
 The tool is a user-friendly graphical interface to calculate GP values directly in ImageJ/Fiji.
+A Fiji installation is required, Fiji can be downloaded [here](https://fiji.sc).
+
 The tool is installed by copying the files in the Fiji installation directory.
-After installation, the tool is loaded from the 'More Tools' menu (double arrow icon).
+After installation, the tool is loaded from the 'More Tools' menu (double arrow icon, >>).
 It can then be directly executed directly by clicking the icon on the toolbar.
 
-Installation instructions:
+## Installation Instructions
 1. Find your Fiji installation directory and go to the macros/toolsets folder.
 	Mac OS:  
 		Right click on Fiji in the Applications folder -> Show Package Contents
@@ -21,7 +25,7 @@ Installation instructions:
 
 4. Copy the “icons” folder in the toolsets folder.
 
-5. (Optional) copy the “gp-viridis.lut” in the Fiji directory “luts” folder.
+5. (Optional) Copy the “gp-viridis.lut” in the Fiji directory “luts” folder.
 	Mac OS: /Applications/Fiji.app/luts
 
 6. Open Fiji.
