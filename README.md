@@ -11,7 +11,7 @@ The tool is installed by copying the files in the Fiji installation directory.
 After installation, the tool is loaded from the 'More Tools' menu (double arrow icon, >>).
 It can then be directly executed directly by clicking the icon on the toolbar.
 
-## Installation Instructions
+## Installation Instructions [(Tutorial Video)](https://youtu.be/NfNh68FUMPk?si=RucBHZpdp8HFwFte)
 1. Find your Fiji installation directory and go to the _macros/toolsets_ folder.
 	Mac OS:  
 		Right click on Fiji in the Applications folder -> Show Package Contents
