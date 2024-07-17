@@ -14,7 +14,7 @@ After installation, the tool is loaded from the 'More Tools' menu (double arrow 
 It can then be directly executed directly by clicking the icon on the toolbar.
 
 ## Installation Instructions [Tutorial Video](https://youtu.be/NfNh68FUMPk?si=RucBHZpdp8HFwFte)
-1. Install [Fiji](https://fiji.sc)
+1. Install [Fiji](https://fiji.sc).
 2. Find your Fiji installation directory and go to the _macros/toolsets_ folder.
 
 	**Mac OS:**
