@@ -14,25 +14,32 @@ After installation, the tool is loaded from the 'More Tools' menu (double arrow 
 It can then be directly executed directly by clicking the icon on the toolbar.
 
 ## Installation Instructions [Tutorial Video](https://youtu.be/NfNh68FUMPk?si=RucBHZpdp8HFwFte)
-1. Find your Fiji installation directory and go to the _macros/toolsets_ folder.
-	Mac OS:  
-		Right click on Fiji in the Applications folder -> Show Package Contents
-		or
-		Go to this path: _/Applications/Fiji.app/macros/toolsets_
-	Windows:
-		It depends where you extracted the program when you downloaded it.
+1. Install [Fiji](https://fiji.sc)
+2. Find your Fiji installation directory and go to the _macros/toolsets_ folder.
 
-2. Delete any older version if you installed one in the past.
+	**Mac OS:**
 
-3. Copy the macro file 'FluidityCalculator_1.0.ijm' in the _toolsets_ folder.
+	Right click on Fiji in the Applications folder -> Show Package Contents
+	
+  	or
 
-4. Copy the 'icons' folder in the _toolsets_ folder.
+	Go to this path: _/Applications/Fiji.app/macros/toolsets_
+	
+	 **Windows:**
+			
+	It depends where you extracted the program when you downloaded it.
 
-5. (Optional) Copy the 'gp-viridis.lut' in the Fiji directory _luts_ folder.
+3. Delete any older version if you installed one in the past.
+
+4. Copy the macro file 'Fluidity Calculator v2.0.ijm' in the _toolsets_ folder.
+
+5. Copy the 'icons' folder in the _toolsets_ folder.
+
+6. (Optional) Copy the 'gp-viridis.lut' in the Fiji directory _luts_ folder.
 	Mac OS: /Applications/Fiji.app/luts
 
-6. Open Fiji.
+7. Open Fiji.
 
-7. Click in the More Tools button on the Toolbar, that is the right most icon of a double arrow (>>).
+8. Click in the More Tools button on the Toolbar, that is the right most icon of a double arrow (>>).
 
-8. A new icon will appear in your toolbar, after opening an image click on it to launch the tool.
+9. A new icon will appear in your toolbar, after opening an image click on it to launch the tool.
