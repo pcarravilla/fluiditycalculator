@@ -7,11 +7,6 @@ Developed by [Pablo Carravilla](https://orcid.org/0000-0001-6592-7630) at the [C
 
 The tool provides a user-friendly graphical interface to calculate GP (membrane fluidity) values directly in ImageJ/Fiji.
 
-A Fiji installation is required, Fiji can be downloaded [here](https://fiji.sc).
-
-The tool is installed by copying the files in the Fiji installation directory.
-After installation, the tool is loaded from the 'More Tools' menu (double arrow icon, >>).
-It can then be directly executed directly by clicking the icon on the toolbar.
 
 ## Installation Instructions [Tutorial Video](https://youtu.be/NfNh68FUMPk?si=RucBHZpdp8HFwFte)
 1. Install [Fiji](https://fiji.sc).
