@@ -1,5 +1,7 @@
 # Fluidity Calculator for ImageJ/Fiji
 
+Documentation can be found [here](https://github.com/pcarravilla/fluiditycalculator/wiki/Documentation).
+
 This is an ImageJ/Fiji macro tool to calculate membrane fluidity values (aka GP) from spectral imaging or two-channel microscopy data.
 Developed by [Pablo Carravilla](https://orcid.org/0000-0001-6592-7630) at the [CSI:Nano lab](https://www.csi-nano.org) at SciLifeLab and the Karolinska Institute.
 
