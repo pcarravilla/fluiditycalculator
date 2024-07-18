@@ -2,7 +2,7 @@
 
 Documentation can be found [here](https://github.com/pcarravilla/fluiditycalculator/wiki/Documentation).
 
-Tutorial video can be found [here](https://youtu.be/luqoejFVw4s)
+A tutorial video can be found [here](https://youtu.be/luqoejFVw4s).
 
 This is an ImageJ/Fiji macro tool to calculate membrane fluidity values (aka GP) from spectral imaging or two-channel microscopy data.
 Developed by [Pablo Carravilla](https://orcid.org/0000-0001-6592-7630) at the [CSI:Nano lab](https://www.csi-nano.org) at SciLifeLab and the Karolinska Institute.
