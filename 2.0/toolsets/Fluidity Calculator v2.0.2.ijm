@@ -3,8 +3,8 @@
  *  Author: Pablo Carravilla
  *  
  *  Name: Fluidity Calculator
- *  Version: 2.0.1
- *  Date: 18-07-2024
+ *  Version: 2.0.2
+ *  Date: 29-07-2024
  *  
  *  Description: 
  *  This macro tool calculates GP images from multichannel microscopy images.
@@ -895,6 +895,7 @@ macro "Fluidity Calculator v2.0 Action Tool - icon:fluidity.png" {
 		numberPattern = "\\d+(\\.\\d+)?"; // Regular expression to match numbers
 		
 		// If channel labels are not wavelengths, relabel
+		
 		if (!matches(label, numberPattern)) {
 		    Dialog.create("Add Emission Wavelengths");
 			Dialog.addMessage("Update your channel labels. \n" +
@@ -940,6 +941,10 @@ macro "Fluidity Calculator v2.0 Action Tool - icon:fluidity.png" {
 		for (c = 1; c <= channels; c++) {
 				Stack.setChannel(c);
 				label = getInfo("slice.label");
+				// Relabel if labels are empty
+				if (lengthOf(label) == 0){
+					label = "Channel " + c;
+				}
 				wavelengthArray[c - 1] = label;
 		}
 	
@@ -983,7 +988,15 @@ macro "Fluidity Calculator v2.0 Action Tool - icon:fluidity.png" {
 		ch2HighIndex = ch2Index + floor(channelWidth / 2);
 		
 		// Errors
-		if (ch1HighIndex >= ch2LowIndex) {exit("Channel 1 and Channel 2 ranges overlap! Set a lower 'Channel Window' value.");} 
+		// Ch1 channel number is lower
+		if (ch1Index < ch2Index && ch1HighIndex >= ch2LowIndex) {
+			exit("Channel 1 and Channel 2 ranges overlap! Set a lower 'Channel Window' value.");
+		}
+		// Ch2 channel number is lower
+		else if (ch2Index > ch1Index && ch2HighIndex >= ch1LowIndex) {
+			exit("Channel 1 and Channel 2 ranges overlap! Set a lower 'Channel Window' value.");
+		}
+		
 		if (ch1LowIndex < 1 || ch1HighIndex > channels) {exit("Channel 1 outside of the user-defined range! Set a lower 'Channel Window Range' value.");}
 		if (ch2LowIndex < 1 || ch2HighIndex > channels) {exit("Channel 2 outside of the user-defined range! Set a lower 'Channel Window Range' value.");}
 	 	
