@@ -990,12 +990,10 @@ macro "Fluidity Calculator v2.0 Action Tool - icon:fluidity.png" {
 		// Errors
 		// Ch1 channel number is lower
 		if (ch1Index < ch2Index && ch1HighIndex >= ch2LowIndex) {
-			print("LOOP 1"); // PCNOTES DELETE
 			exit("Channel 1 and Channel 2 ranges overlap! Set a lower 'Channel Window' value.");
 		}
 		// Ch2 channel number is lower
 		else if (ch2Index < ch1Index && ch2HighIndex >= ch1LowIndex) {
-			print("LOOP 2"); // PCNOTES DELETE
 			exit("Channel 1 and Channel 2 ranges overlap! Set a lower 'Channel Window' value.");
 		}
 		
