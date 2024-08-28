@@ -3,8 +3,8 @@
  *  Author: Pablo Carravilla
  *  
  *  Name: Fluidity Calculator
- *  Version: 2.0.3
- *  Date: 6-08-2024
+ *  Version: 2.0.4
+ *  Date: 27-08-2024
  *  
  *  Description: 
  *  This macro tool calculates GP images from multichannel microscopy images.
@@ -742,7 +742,7 @@ macro "Fluidity Calculator v2.0 Action Tool - icon:fluidity.png" {
 		for (f = 1; f <= gpHistoFrames; f++) { // First frames
 			for (z = 1; z <= gpHistoSlices; z++) {
 				if (gpHistoFrames > 1) {Stack.setFrame(f)};
-				if (gpHistoSlices > 1) {Stack.setFrame(z)};
+				if (gpHistoSlices > 1) {Stack.setSlice(z)};
 				getHistogram(gpValues, gpCounts, binNumber, -1, 1); // gpValues and gpCounts are arrays
 				
 				// Values (only first column)
