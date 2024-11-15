@@ -3,8 +3,8 @@
  *  Author: Pablo Carravilla
  *  
  *  Name: Fluidity Calculator
- *  Version: 2.0.4
- *  Date: 27-08-2024
+ *  Version: 2.0.5
+ *  Date: 15-11-2024
  *  
  *  Description: 
  *  This macro tool calculates GP images from multichannel microscopy images.
@@ -791,7 +791,7 @@ macro "Fluidity Calculator v2.0 Action Tool - icon:fluidity.png" {
 			defaults[3] = 0;					// doAveraging
 			defaults[4] = 1;					// radius
 			defaults[5] = "Channel 1+2";		// thresholdCh
-			defaults[6] = 5;					// satWarningPerc
+			defaults[6] = 10;					// satWarningPerc
 			defaults[7] = 0;					// showSpectrum
 			defaults[8] = 1;					// saveResults
 			defaults[9] = 0;					// saveAnalysisMask
