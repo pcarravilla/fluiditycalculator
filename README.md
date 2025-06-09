@@ -1,5 +1,7 @@
 # Fluidity Calculator for ImageJ/Fiji
 
+Publication: _Measuring plasma membrane fluidity using confocal microscopy_ [Nat protoc](https://www.nature.com/articles/s41596-024-01122-8) (2025)
+
 Documentation can be found [here](https://github.com/pcarravilla/fluiditycalculator/wiki/Documentation).
 
 A tutorial video can be found [here](https://youtu.be/luqoejFVw4s).
